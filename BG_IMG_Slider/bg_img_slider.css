@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.load {
+    animation: slide 2s;
+}
+
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+}
+
+.content {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.principal {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('DRose.jpg')
+    }
+
+    10% {
+        background-image: url('DRose.jpg')
+    }
+    10.01% {
+        background-image: url('JHarden.jpg')
+    }
+    20% {
+        background-image: url('JHarden.jpg')
+    }
+    20.01% {
+        background-image: url('JMorant.jpg')
+    }
+    30% {
+        background-image: url('JMorant.jpg')
+    }
+    30.01% {
+        background-image: url('KBryant.jpg')
+    }
+    40% {
+        background-image: url('KBryant.jpg')
+    }
+    40.01% {
+        background-image: url('KIrving.jpg')
+    }
+    50% {
+        background-image: url('KIrving.jpg')
+    }
+    50.01% {
+        background-image: url('LBall.jpg')
+    }
+    60% {
+        background-image: url('LBall.jpg')
+    }
+    60.01% {
+        background-image: url('LDoncic.jpg')
+    }
+    70% {
+        background-image: url('LDoncic.jpg')
+    }
+    70.01% {
+        background-image: url('LJames.jpg')
+    }
+    80% {
+        background-image: url('LJames.jpg')
+    }
+    80.01% {
+        background-image: url('MJordan.jpg')
+    }
+    90% {
+        background-image: url('MJordan.jpg')
+    }
+    90.01% {
+        background-image: url('SCurry.jpg')
+    }
+    100% {
+        background-image: url('SCurry.jpg')
+    }
+}
